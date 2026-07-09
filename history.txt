@@ -1,0 +1,8 @@
+==================================================
+[SECTION 1: HARDWARE FAULT SIGNATURE]
+[SUCCESS] Hardware fault injection matrix seeded successfully.
+Target Student ID: 20231000031
+Generated Fault Signature: FEU_A_7D4AEE3B12
+
+--- BASELINE CRASH LOG ---
+python3: can't open file '/workspaces/final/avionics_bus.py': [Errno 2] No such file or directory
