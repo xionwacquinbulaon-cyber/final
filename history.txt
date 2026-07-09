@@ -9,20 +9,6 @@ python3: can't open file '/workspaces/final/fault_seed.py': [Errno 2] No such fi
 Total Register Writes: 36
 
 --- FINAL AVIONICS BUS REGISTER STATE ---
-Channel [LIDAR_FRONT ] -> Packets: 12 | Latest: 4.5068V | Status: SYNCED
-Channel [GPS_MAIN    ] -> Packets: 12 | Latest: 4.9637V | Status: SYNCED
+Channel [LIDAR_FRONT ] -> Packets: 12 | Latest: 4.5379V | Status: SYNCED
+Channel [GPS_MAIN    ] -> Packets: 12 | Latest: 5.048V | Status: SYNCED
 Channel [IMU_NAV     ] -> Packets: 12 | Latest: 0.5455V | Status: SYNCED
-
-==================================================
-[SECTION 2: GIT PROVENANCE AUDIT]
-* f6fd9f6 chore: initialize online codespace and baseline history log
-* 3692dff chore: initialize online codespace and baseline history log
-* 15ee63a chore: initialize online codespace and baseline history log
-* bded059 Initial commit
-
-==================================================
-[SECTION 3: AUTOMATED VERIFICATION SUITE]
-python3: can't open file '/workspaces/final/verify_submission.py': [Errno 2] No such file or directory
-
-==================================================
-[SECTION 4: AI PROMPT LEDGER & ANALYSIS]
