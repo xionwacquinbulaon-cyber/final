@@ -9,29 +9,6 @@ python3: can't open file '/workspaces/final/fault_seed.py': [Errno 2] No such fi
 Total Register Writes: 36
 
 --- FINAL AVIONICS BUS REGISTER STATE ---
-Channel [LIDAR_FRONT ] -> Packets: 12 | Latest: 3.7132V | Status: SYNCED
-Channel [GPS_MAIN    ] -> Packets: 12 | Latest: 4.9665V | Status: SYNCED
+Channel [LIDAR_FRONT ] -> Packets: 12 | Latest: 4.4396V | Status: SYNCED
+Channel [GPS_MAIN    ] -> Packets: 12 | Latest: 4.969V | Status: SYNCED
 Channel [IMU_NAV     ] -> Packets: 12 | Latest: 0.5455V | Status: SYNCED
-
-==================================================
-[SECTION 2: GIT PROVENANCE AUDIT]
-* 82f33fe chore: initialize online codespace and baseline history log
-* dd1f188 chore: initialize online codespace and baseline history log
-* 3044497 docs: finalize history.txt exam verification log
-* 9f3fdfc chore: initialize online codespace and baseline history log
-* 5485e54 docs: finalize history.txt exam verification log
-* 00d9981 chore: initialize online codespace and baseline history log
-* 23aae7b docs: finalize history.txt exam verification log
-* cab94d7 chore: initialize online codespace and baseline history log
-* cf223a1 docs: finalize history.txt exam verification log
-* f6fd9f6 chore: initialize online codespace and baseline history log
-* 3692dff chore: initialize online codespace and baseline history log
-* 15ee63a chore: initialize online codespace and baseline history log
-* bded059 Initial commit
-
-==================================================
-[SECTION 3: AUTOMATED VERIFICATION SUITE]
-python3: can't open file '/workspaces/final/verify_submission.py': [Errno 2] No such file or directory
-
-==================================================
-[SECTION 4: AI PROMPT LEDGER & ANALYSIS]
