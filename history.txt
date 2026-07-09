@@ -1,8 +1,6 @@
 ==================================================
 [SECTION 1: HARDWARE FAULT SIGNATURE]
-[SUCCESS] Hardware fault injection matrix seeded successfully.
-Target Student ID: 20231000031
-Generated Fault Signature: FEU_A_7D4AEE3B12
+python3: can't open file '/workspaces/final/fault_seed.py': [Errno 2] No such file or directory
 
 --- BASELINE CRASH LOG ---
 [SYSTEM] Avionics Bus initialized for Signature: STUDENT_20231000031_VALIDATED
@@ -11,6 +9,6 @@ Generated Fault Signature: FEU_A_7D4AEE3B12
 Total Register Writes: 36
 
 --- FINAL AVIONICS BUS REGISTER STATE ---
-Channel [LIDAR_FRONT ] -> Packets: 12 | Latest: 3.6695V | Status: SYNCED
-Channel [GPS_MAIN    ] -> Packets: 12 | Latest: 5.0104V | Status: SYNCED
+Channel [LIDAR_FRONT ] -> Packets: 12 | Latest: 4.5068V | Status: SYNCED
+Channel [GPS_MAIN    ] -> Packets: 12 | Latest: 4.9637V | Status: SYNCED
 Channel [IMU_NAV     ] -> Packets: 12 | Latest: 0.5455V | Status: SYNCED
