@@ -26,3 +26,47 @@ python3 avionics_bus.py >> history.txt 2>&1
 git add history.txt hardware_config.json
 git commit -m "chore: initialize online codespace and baseline history log"
 git push origin main
+
+
+# ==========================================================================
+# LISTING 1: CODESPACE TERMINAL INITIALIZATION (FIXED RUNTIME)
+# ==========================================================================
+
+# 1. Initialize history.txt with your unique 8-digit Student ID
+echo "==================================================" > history.txt
+echo "[SECTION 1: HARDWARE FAULT SIGNATURE]" >> history.txt
+python3 fault_seed.py --id 20231000031 >> history.txt 2>&1
+
+# 2. Capture baseline system diagnostics
+echo -e "\n--- BASELINE CRASH LOG ---" >> history.txt
+python3 avionics_bus.py >> history.txt 2>&1
+
+# 3. Save your initial baseline to GitHub
+git add history.txt hardware_config.json
+git commit -m "chore: initialize online codespace and baseline history log"
+git push origin main
+
+
+# ==========================================================================
+# LISTING 2: FINAL ASSEMBLY AND SUBMISSION
+# ==========================================================================
+
+# 1. Append Git commit history to your log
+echo -e "\n==================================================" >> history.txt
+echo "[SECTION 2: GIT PROVENANCE AUDIT]" >> history.txt
+git log --graph --oneline --all >> history.txt
+
+# 2. Run the automated unit test suite
+echo -e "\n==================================================" >> history.txt
+echo "[SECTION 3: AUTOMATED VERIFICATION SUITE]" >> history.txt
+python3 verify_submission.py --id 20231000031 >> history.txt 2>&1
+
+# 3. Append your AI Prompt Ledger for faculty evaluation
+echo -e "\n==================================================" >> history.txt
+echo "[SECTION 4: AI PROMPT LEDGER & ANALYSIS]" >> history.txt
+cat AI_PROMPT_LEDGER.md >> history.txt
+
+# 4. Push your finalized examination to GitHub
+git add .
+git commit -m "docs: finalize history.txt exam verification log"
+git push origin main
